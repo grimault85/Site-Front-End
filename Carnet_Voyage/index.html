@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="" href="image/favicon.png" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Exercice Final Hello World</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="image/logo.png" alt="logo helloWorld"></a>
+        <nav>
+            <a href="#mes_derniers_voyages">Carnet de voyages</a>
+            <a href="#quand_partir">Quand partir?</a>
+            <a href="#a_propos">À propos</a>
+            <a href="#contact">Me contacter</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Carnets de voyage</h1>
+        <div class="container">
+            <section id="mes_derniers_voyages">
+                <h2>mes derniers voyages</h2>
+                <article class="vienne">
+                    <h3>Vienne, Autriche</h3>
+                    <img src="image/vienne.jpg" alt="ville de Vienne">
+                    <p>Vienne est un mélange d’architecture fastueuse, de musique et de charme pittoresque.
+                    </p>
+                    <p>Semblable à nulle autre, <strong>Vienne</strong> préserve intact son aspect historique d’origine marqué par des édifices fastueux datant de l’époque baroque et des débuts du XX<sup>ème</sup> siècle.
+                    </p>
+                    <p>La moitié de la ville est située sur le Danube et offre des parcs, la forêt viennoise et même des zones viticoles pour les loisirs.
+                    </p>
+                    <a class="readmore" href="./page_vienne/vienne.html">En savoir plus</a>
+                    <div class="clear"></div>
+                </article>
+
+                <article class="marrakech">
+                    <h3>Marrakech, Maroc</h3>
+                    <img src="image/marrakech.jpg" alt="ville de Marrakech">
+                    <p>Marrakech, est une ville située dans le centre du Maroc au pied des montagnes de l'Atlas. <strong>Marrakech</strong> est surnommée <span class="rouge">« la ville rouge »</span> ou la <span class="ocre">« ville ocre »</span> en référence
+                        à la couleur rouge d'une grande partie de ses immeubles et ses maisons.</p>
+                    <p>Marrakech est une ville unique en son genre qui se distingue totalement du reste. Visiter Marrakech est une expérience qui stimulera tous vos sens : ses couleurs, ses saveurs et ses odeurs vous marqueront dès votre arrivée et vous
+                        accompagneront des semaines après votre retour.</p>
+                    <a class="readmore" href="#">En savoir plus</a>
+                    <div class="clear"></div>
+                </article>
+
+            </section>
+            <section id="quand_partir">
+                <h2>les meilleures saisons pour voyager</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ville</th>
+                            <th>Pays</th>
+                            <th>Périodes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bali</td>
+                            <td>Indonésie</td>
+                            <td>juin à septembre</td>
+                        </tr>
+                        <tr>
+                            <td>Marrakech</td>
+                            <td>Maroc</td>
+                            <td>mars à juin, septembre à novembre</td>
+                        </tr>
+                        <tr>
+                            <td>Miami</td>
+                            <td>USA</td>
+                            <td>janvier à avril, novembre, décembre</td>
+                        </tr>
+                        <tr>
+                            <td>Vienne</td>
+                            <td>Autriche</td>
+                            <td>juin à septembre</td>
+                        </tr>
+                        <tr>
+                            <td>Sydney</td>
+                            <td>Australie</td>
+                            <td>mars à mai, septembre et octobre</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="a_propos">
+                <div class="a_propos_container">
+                    <h2>À propos</h2>
+                    <p>Je m'appelle Claire et j'aime les <strong>voyages</strong> et l'<strong>aventure</strong>.</p>
+                    <p>C'est suite à un long <strong>tour du monde</strong> que j'ai changé de vie et que j'ai décidé de créer ce blog pour vous aider à voyager.</p>
+                    <p>Ma passion pour le voyage est désormais devenu mon métier.</p>
+                    <p>Vous pourrez trouver ici de l'inspiration et de nombreux conseils pour <strong>réduire votre budget voyages</strong> et pouvoir partir plus souvent.</p>
+                </div>
+
+            </section>
+            <section id="contact">
+                <h2>me contacter</h2>
+                <div class="me_contacter">
+                <p><i class="fa-solid fa-location-dot"></i>
+                <adresse>31 Rue d'Auteuil, Paris 16<sup>ème</sup></adresse></p>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:claire@helloworld.com">claire@helloworld.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+33601030507">06 01 03 05 07</a></p>
+                </div>
+
+                <h3>Formulaire de contact</h3>
+                <form action="" method="post">
+                    <div class="form_left">
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        <input type="tel" id="tel" name="tel" placeholder="Votre numéro de téléphone" required>
+                    </div>
+                    <div class="form_right">
+                        <textarea name="message" id="message" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="resaux">
+        <p>Suivez-moi sur:</p>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="https://www.pinterest.com"><i class="fa-brands fa-square-pinterest"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+    </footer>
+</body>
+
+</html>
